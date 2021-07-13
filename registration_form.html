@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        content {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+        
+        Body {
+            font-family: Calibri, Helvetica, sans-serif;
+            background-color: pink;
+        }
+        
+        form {
+            border: 5px solid #f1f1f1;
+        }
+        
+        .container {
+            padding: 25px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <a href="Home.html">Home</a>
+
+    </div>
+    <center>
+        <h1> Bank Registration Form </h1>
+    </center>
+
+    <form>
+
+        <div class="container">
+            <h4>Customer Name</h4>
+            <input type="text" name="nameofthecustomer" placeHolder="customer Name " size="30" required/>
+            <label for="Current Address"><h4>Current Address</h4></label>
+            <textarea id="Current Address" name="Current Address" rows="4" cols="50">
+            </textarea>
+            <h4>Account Type </h4>
+            <input type="radio" id="css" name="fav_language" value="CSS" />
+            <label for="savings">Savings</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS" />
+            <label for="fixed">Fixed</label><br>
+            <h4>Customer Type </h4>
+            <select name="customerType" id="customer type">
+                <option value="Individual">Individual</option>
+                <option value="Company">Company</option>
+                <option value="partnership">partnership</option>
+            </select>
+            <button type="button"><a href="/success.html">submit</a></button>
+        </div>
+    </form>
+</body>
+
+</html>
